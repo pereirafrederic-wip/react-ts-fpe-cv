@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
 import data from './data.json';
 import { GoPerson } from "react-icons/go";
- import moment from 'moment';
+import moment from 'moment';
 
 interface IProps {
 }

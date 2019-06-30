@@ -46,11 +46,11 @@ export default memo(({ profile }: IProps) => {
         break
 
       case "vue":
-        return <FaVuejs size={logoSize}  />;
+        return <FaVuejs size={logoSize} />;
         break
 
       default:
-        return <DiReact  size={logoSize}  color={"white"}/>;
+        return <DiReact size={logoSize} color={"white"} />;
     }
   }
 

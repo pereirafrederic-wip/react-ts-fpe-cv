@@ -33,9 +33,9 @@ export default class Activites extends Component<IState, IProps> {
 
   render() {
 
-      const { activiteActiveId }: any = this.state
+    const { activiteActiveId }: any = this.state
 
-      console.log(data.filter( activite => activite.id ===activiteActiveId))
+    console.log(data.filter(activite => activite.id === activiteActiveId))
     return (
       <div className="Activites">
         <div className="tabs is-centered">
@@ -46,10 +46,10 @@ export default class Activites extends Component<IState, IProps> {
           </ul>
         </div>
         <div className="profile">
-        {data.filter( activite => activite.id ===activiteActiveId).length > 0 && data.filter( activite => activite.id ===activiteActiveId)[0].profiles && (
-          data.filter( activite => activite.id ===activiteActiveId)[0].profiles.reverse().map( profile => <Profile profile={profile} />)
-          
-        )}
+          {data.filter(activite => activite.id === activiteActiveId).length > 0 && data.filter(activite => activite.id === activiteActiveId)[0].profiles && (
+            data.filter(activite => activite.id === activiteActiveId)[0].profiles.reverse().map(profile => <Profile profile={profile} />)
+
+          )}
         </div>
       </div>
     )

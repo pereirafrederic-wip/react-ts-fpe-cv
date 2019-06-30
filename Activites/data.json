@@ -6,52 +6,52 @@
       {
         "id": 1,
         "name": "développeur extJs ",
-        "code":"extJs",
+        "code": "extJs",
         "version": "5.2",
         "pratiquePro": "2 ans",
         "pratiquePerso": "1 an",
         "level": 3,
-        "info" : "première expérience front post html css javascript qui m'a fait le monde du web, ça m'a bien plu. alors je me suis décidé à partir vers le full stack. je me suis intéressé à ce qui se faisait et j'ai découvert beaucoup mieux. je trouvais que l'ExtJs étant trop déclaratif "
+        "info": "première expérience front post html css javascript qui m'a fait le monde du web, ça m'a bien plu. alors je me suis décidé à partir vers le full stack. je me suis intéressé à ce qui se faisait et j'ai découvert beaucoup mieux. je trouvais que l'ExtJs étant trop déclaratif "
       },
       {
         "id": 2,
         "name": "développeur AngularJs ",
         "version": "1.7",
-        "code":"angularJs",
+        "code": "angularJs",
         "pratiquePro": "1 ans",
         "pratiquePerso": "1 ans 1/2",
         "level": 3,
-        "info" : "Après ExtJs, AngularJs était à la mode. je le trouvais pratique avec le modèle MVC. malheureusement, il est devenu obsolète avec la venue de Angular 2 et la venue du typescript"
+        "info": "Après ExtJs, AngularJs était à la mode. je le trouvais pratique avec le modèle MVC. malheureusement, il est devenu obsolète avec la venue de Angular 2 et la venue du typescript"
       },
       {
         "id": 3,
         "name": "développeur angular",
         "version": "2",
-        "code":"angular",
+        "code": "angular",
         "pratiquePro": "aucune",
         "pratiquePerso": "6 mois",
         "level": 2,
-        "info" : "AngularJs allait forcément être remplacer par les nouvelles version Angular, alors je me suis mis à jour avec des cours Udemy. j'ai fait quelques tuto puis j'ai voulu le mettre en concurrence avec ReactJs. mon choix s'est porté sur React"
+        "info": "AngularJs allait forcément être remplacer par les nouvelles version Angular, alors je me suis mis à jour avec des cours Udemy. j'ai fait quelques tuto puis j'ai voulu le mettre en concurrence avec ReactJs. mon choix s'est porté sur React"
       },
       {
         "id": 4,
         "name": "développeur reactJs",
         "version": "16.6",
-        "code":"react",
+        "code": "react",
         "pratiquePro": "1 ans",
         "pratiquePerso": "1 an 1/2",
         "level": 4,
-        "info" : "React a été pour moi ma révolution, le découpage me convenait mieux que celui d'Angular. PAs aussi verbeux que l'Angular, je n'avais pas besoin d'un CLI pour coder. j'ai eu plus de mal à prendre redux avec, je le voyais trop compliqué et aussi verbeux."
+        "info": "React a été pour moi ma révolution, le découpage me convenait mieux que celui d'Angular. PAs aussi verbeux que l'Angular, je n'avais pas besoin d'un CLI pour coder. j'ai eu plus de mal à prendre redux avec, je le voyais trop compliqué et aussi verbeux."
       },
       {
         "id": 5,
         "name": "développeur react typescript",
         "version": "3.4.3",
-        "code":"react",
+        "code": "react",
         "pratiquePro": "6 mois",
         "pratiquePerso": "6 mois",
         "level": 4,
-        "info" : "l'utilisation de typescript a comblé un gros manque d'organisation des modeles de mes composants, l'ajout d'interface et d'enum apporte clairement un gros plus à nos applications. je trouve aussi que redux est beaucoup plus clair avec le fait d'utiliser des interfaces, je trouve que c'est le truc qui lui manquait. aujourd'hui, je n'envisage plus react sans typescript"
+        "info": "l'utilisation de typescript a comblé un gros manque d'organisation des modeles de mes composants, l'ajout d'interface et d'enum apporte clairement un gros plus à nos applications. je trouve aussi que redux est beaucoup plus clair avec le fait d'utiliser des interfaces, je trouve que c'est le truc qui lui manquait. aujourd'hui, je n'envisage plus react sans typescript"
       }
     ]
   },
@@ -62,22 +62,23 @@
       {
         "id": 4,
         "name": "développeur java",
-        "code":"java",
+        "code": "java",
         "version": "8",
         "pratiquePro": "9 ans",
         "pratiquePerso": "2 ans",
         "level": 4,
-        "info" : "j'avais pratique java à l'école de façon assez courte, j'avais des expérienes plutôt programmation automate, ou de systeme életronique numérque. Après une découverte du langage java en entreprise, je me décidais à en faire mon métier. Après quelques années, j'avais envie de voir ce qui se faisait ailleurs, car le monde du front end était en pleine ébullition"
+        "info": "j'avais pratique java à l'école de façon assez courte, j'avais des expérienes plutôt programmation automate, ou de systeme életronique numérque. Après une découverte du langage java en entreprise, je me décidais à en faire mon métier. Après quelques années, j'avais envie de voir ce qui se faisait ailleurs, car le monde du front end était en pleine ébullition"
       }
     ]
   },
   {
     "id": 3,
     "name": "veilles",
-    "profiles": [{
+    "profiles": [
+      {
         "id": 2,
         "name": "observateur VueJs",
-        "code":"vue",
+        "code": "vue",
         "version": "2.0",
         "pratiquePro": "aucune",
         "pratiquePerso": "1 mois",
@@ -87,13 +88,13 @@
       {
         "id": 1,
         "name": "observateur docker",
-                "code":"docker",
+        "code": "docker",
         "version": "",
         "pratiquePro": "aucune",
         "pratiquePerso": "1 mois 1/2",
         "level": 1,
         "info": "dockeriser ses environnements, c'est vraiment pratique. "
-      }      
+      }
     ]
   },
   {
@@ -103,16 +104,17 @@
       {
         "id": 2,
         "name": "observateur mongoDB",
-        "code":"mongo",
+        "code": "mongo",
         "version": "4.3",
         "pratiquePro": "aucune",
         "pratiquePerso": "aucune",
         "level": 0,
         "info": "mongoDB pour la partie noSql, j'aimerais bien devoir la mettre en place"
-      },{
+      },
+      {
         "id": 1,
         "name": "observateur kotlin",
-        "code":"kotlin",
+        "code": "kotlin",
         "version": "1.3",
         "pratiquePro": "aucune",
         "pratiquePerso": "aucune",
