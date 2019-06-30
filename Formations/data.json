@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "debut":"2006",
+    "fin" : "2007" ,
+    "intitule" :"Maîtrise EEA",
+    "definition" : "Electronique Electrotechnique Automatique",
+    "lieu" : "UFR Science et Technique Nantes"
+  }, {
+    "id": 2,
+    "debut":"2005",
+    "fin" : "2006" ,
+    "intitule" :"Licence IE",
+    "definition" : "Ingénierie Electrique 3ème année",
+    "lieu" : "UFR Science et Technique Nantes"
+  }, {
+    "id": 3,
+    "debut":"2006",
+    "fin" : "2007" ,
+    "intitule" :"DUT GEII",
+    "definition" : "Génie électrique et informatique industrielle",
+    "lieu" : "IUT de nantes"
+  }
+  
+]

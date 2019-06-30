@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Identite from './Identite/Identite';
 import Activites from './Activites/Activites';
 import Links from './Links/Links';
+import Formations from './Formations/Formations';
 
 
 
@@ -21,6 +22,7 @@ class CV extends Component<AppProps, AppState> {
     return (
       <div className="CV">
         <Identite />
+        <Formations />
         <Activites />
 
         <Links />
