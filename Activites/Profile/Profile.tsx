@@ -7,7 +7,8 @@ interface IProfile {
   version: string
   pratiquePro: string
   pratiquePerso: string
-  level: number
+  level: number,
+  info: string
 }
 
 interface IProps {
@@ -21,8 +22,34 @@ export default memo(({ profile }: IProps) => {
 
   return (
     <div className="Profile" key={profile.id}>
-      <div className="Profile__name">{profile.name} </div>
-      <div className="Profile__pratiquepro">{profile.pratiquePro} </div>
+
+
+      <div className="card">
+        <div className="card-image">
+          <figure className="image is-4by3">
+          </figure>
+        </div>
+        <div className="card-content">
+          <div className="media">
+            <div className="media-left">
+              <figure className="image is-48x48">
+              </figure>
+            </div>
+            <div className="media-content">
+              <p className="title is-4">{profile.name}</p>
+              <p className="subtitle is-6">{profile.version}</p>
+              <p className="subtitle is-6">{profile.pratiquePerso}</p>
+              <p className="subtitle is-6">{profile.pratiquePerso}</p>
+              <p className="subtitle is-6">{profile.level}</p>
+
+            </div>
+          </div>
+
+          <div className="content">
+            {profile.info}
+          </div>
+        </div>
+      </div>
     </div>
   );
 });
