@@ -13,7 +13,7 @@ h1, p {
 
 $color-footer-link : red;
 
-
+@import "../bulma-0.7.5/bulma/bulma.sass";
 @import './Identite/style.scss';
 @import './Activites/style.scss';
 @import './Links/style.scss';

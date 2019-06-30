@@ -9,7 +9,6 @@ import Formations from './Formations/Formations';
 
 
 import './style.scss';
-import 'bulma/css/bulma.css'
 
 interface AppProps { }
 interface AppState { }
