@@ -14,11 +14,11 @@ export default class Links extends Component<IState, IProps> {
 
 
   render() {
-     console.log("MEMO Links RENDERING", data);
+    console.log("MEMO Links RENDERING", data);
     return (
       <footer className="footer">
         <div className="content has-text-centered">
-        {data.map(link => <Link link={link}/>)}
+          {data.map(link => <Link link={link} />)}
         </div>
       </footer>
     )
