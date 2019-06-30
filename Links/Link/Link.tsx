@@ -21,10 +21,11 @@ export default memo(({ link }: IProps) => {
 
 
   const switchLogo = () => {
-    switch (link.name) {
+    /*switch (link.name) {
       case ELinks.GITHUB:
         return DiGithubAlt;
-    }
+    }*/
+    return <DiGithubAlt />;
   }
 
   return (
