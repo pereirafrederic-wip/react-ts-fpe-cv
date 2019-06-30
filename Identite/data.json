@@ -1,7 +1,7 @@
 {
   "nom" : "pereira",
   "prenom" : "frédéric",
-  "age" : 35,
+  "dateNaissance" : "1984-03-07",
   "email" : "pereira.frederic.android@gmail.com",
   "titre": "développeur full stack"
 }
