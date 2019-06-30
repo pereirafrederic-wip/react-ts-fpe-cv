@@ -34,6 +34,8 @@ export default class Activites extends Component<IState, IProps> {
   render() {
 
       const { activiteActive }: any = this.state
+
+      console.log(data.filter( activite => activite.id ===activiteActive))
     return (
       <div className="Activites">
         <div className="tabs is-centered">
