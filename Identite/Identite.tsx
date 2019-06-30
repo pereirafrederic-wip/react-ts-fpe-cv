@@ -15,7 +15,7 @@ export default memo((props: IIdentiteProps) => {
       </div>
       <div className="Identite__civilite">
         <div className="Identite__civilite__nomprenom">{`${data.nom} ${data.prenom}`}</div>
-        <div className="Identite__civilite__email">{`email : ${data.email}`}</div>
+        <div className="Identite__civilite__email">{`${data.email}`}</div>
         <div className="Identite__civilite__age">{`${data.age} ans`}</div>
       </div>
 
