@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import data from './data.json';
-
+import Profile from './Profile/Profile'
 
 interface IProps {
 }
@@ -44,7 +44,10 @@ export default class Activites extends Component<IState, IProps> {
           </ul>
         </div>
         <div className="profile">
-        {data.filter( activite => activite.id === )}
+        {data.filter( activite => activite.id ===activiteActive).length > 0 && data.filter( activite => activite.id ===activiteActive)[0].profiles && (
+          data.filter( activite => activite.id ===activiteActive)[0].profiles.map( profile => <Profile profile={profile} />)
+          
+        )}
         </div>
       </div>
     )
