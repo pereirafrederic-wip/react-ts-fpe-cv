@@ -14,7 +14,7 @@ export default class Links extends Component<IState, IProps> {
 
 
   render() {
-     console.log("MEMO Identite RENDERING");
+     console.log("MEMO Links RENDERING", data);
     return (
       <footer className="footer">
         <div className="content has-text-centered">

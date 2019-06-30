@@ -31,7 +31,6 @@ const switchLogo = () =>{
     <div className="Link">
           <div className="name"><a href={link.url}>{link.name}</a> </div>
           <div className="logo">{switchLogo()} </div>
-
     </div>
   );
 });
