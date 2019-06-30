@@ -47,7 +47,7 @@ export default class Activites extends Component<IState, IProps> {
         </div>
         <div className="profile">
         {data.filter( activite => activite.id ===activiteActiveId).length > 0 && data.filter( activite => activite.id ===activiteActiveId)[0].profiles && (
-          data.filter( activite => activite.id ===activiteActiveId)[0].profiles.map( profile => <Profile profile={profile} />)
+          data.filter( activite => activite.id ===activiteActiveId)[0].profiles.reverse().map( profile => <Profile profile={profile} />)
           
         )}
         </div>

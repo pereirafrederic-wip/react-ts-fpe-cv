@@ -74,7 +74,16 @@
   {
     "id": 3,
     "name": "veilles",
-    "profiles": [
+    "profiles": [{
+        "id": 2,
+        "name": "observateur VueJs",
+        "code":"vue",
+        "version": "2.0",
+        "pratiquePro": "aucune",
+        "pratiquePerso": "1 mois",
+        "level": 1,
+        "info": "Intéressant mais j'ai eu plus de mal avec VueJs qu'Angular et React, mon choix a été de pas se disperser plus."
+      },
       {
         "id": 1,
         "name": "observateur docker",
@@ -84,33 +93,13 @@
         "pratiquePerso": "1 mois 1/2",
         "level": 1,
         "info": "dockeriser ses environnements, c'est vraiment pratique. "
-      },
-      {
-        "id": 2,
-        "name": "observateur VueJs",
-        "code":"vue",
-        "version": "2.0",
-        "pratiquePro": "aucune",
-        "pratiquePerso": "1 mois",
-        "level": 1,
-        "info": "Intéressant mais j'ai eu plus de mal avec VueJs qu'Angular et React, mon choix a été de pas se disperser plus."
-      }
+      }      
     ]
   },
   {
     "id": 4,
     "name": "intérêts",
     "profiles": [
-      {
-        "id": 1,
-        "name": "observateur kotlin",
-        "code":"kotlin",
-        "version": "1.3",
-        "pratiquePro": "aucune",
-        "pratiquePerso": "aucune",
-        "level": 0,
-        "info": "kotlin a l'air plus intérssant que grails dans l'écosystème Java "
-      },
       {
         "id": 2,
         "name": "observateur mongoDB",
@@ -120,6 +109,15 @@
         "pratiquePerso": "aucune",
         "level": 0,
         "info": "mongoDB pour la partie noSql, j'aimerais bien devoir la mettre en place"
+      },{
+        "id": 1,
+        "name": "observateur kotlin",
+        "code":"kotlin",
+        "version": "1.3",
+        "pratiquePro": "aucune",
+        "pratiquePerso": "aucune",
+        "level": 0,
+        "info": "kotlin a l'air plus intérssant que grails dans l'écosystème Java "
       }
     ]
   }
