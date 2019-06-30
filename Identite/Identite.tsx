@@ -2,10 +2,10 @@ import React, { memo } from 'react'
 import data from './identite.json';
 import { GoPerson } from "react-icons/go";
 
-interface IIdentiteProps {
+interface IProps {
 }
 
-export default memo((props: IIdentiteProps) => {
+export default memo((props: IProps) => {
   console.log("MEMO Identite RENDERING");
 
   return (
