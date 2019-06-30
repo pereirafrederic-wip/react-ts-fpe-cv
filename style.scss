@@ -5,6 +5,10 @@ h1, p {
 .CV {
   display: flex;
   flex-direction: column;
+
+  .activite {
+    text-transform: capitalize
+  }
 }
 
 @import './Identite/style.scss'

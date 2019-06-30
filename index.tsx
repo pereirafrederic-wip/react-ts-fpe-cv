@@ -39,7 +39,7 @@ class App extends Component<AppProps, AppState> {
 
         <div className="tabs is-centered">
           <ul>
-            {activites.map(activite => <li className={this.isActive( activite.id)}
+            {activites.map(activite => <li className={`activite ${this.isActive( activite.id)} `}
               onClick={this.changeActiviteActive.bind(this, activite.id)}
             ><a>{activite.name}</a></li>)}
           </ul>

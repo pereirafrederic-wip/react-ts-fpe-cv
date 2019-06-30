@@ -2,8 +2,19 @@
   display: flex;
   flex-direction: row;
 
-    .Identite__logo, .Identite__titre{
+    .Identite__logo, {
       align-self: center;
+    }
+    .Identite__titre{
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+        font-size: 3em;
+        margin-left: 5px;
+        text-transform: capitalize
     }
 
    .Identite__civilite{
