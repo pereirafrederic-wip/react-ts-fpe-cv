@@ -1,14 +1,26 @@
 .Identite{
  display: flex;
  flex-direction: row;
-.Identite__nom{
-    font-size: xx-large;
-}
 
-.Identite__prenom{
-  font-size: x-large;
-}
-.Identite__age{
-font-size: large;
-}
+    .Identite__logo{
+      border: 1px solid black;
+      border-radius: 10%;
+    }
+
+   .Identite__civilite{
+    flex-direction: column;
+    margin-left: 5px;
+      .Identite__civilite__nomprenom{
+        font-weight: 800;
+        text-transform: uppercase
+      }
+
+      .Identite__civilite__email{
+        font-weight: 600;
+        text-transform: capitalize
+      }
+      .Identite__civilite__age{
+        font-weight: 400;
+      } 
+  }
 }

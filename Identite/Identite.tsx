@@ -1,6 +1,8 @@
-import React, {memo} from 'react'
-import data from './Donnees/identite.json';
-interface IIdentiteProps{
+import React, { memo } from 'react'
+import data from './identite.json';
+import { GoPerson } from "react-icons/go";
+
+interface IIdentiteProps {
 }
 
 export default memo((props: IIdentiteProps) => {
@@ -8,9 +10,15 @@ export default memo((props: IIdentiteProps) => {
 
   return (
     <div className="Identite">
-      <div className="Identite__nom">{data.nom}</div>
-      <div className="Identite__prenom">{data.prenom}</div>
-      <div className="Identite__age">{data.age}</div>
+      <div className="Identite__logo">
+        <GoPerson size={50} />
+      </div>
+      <div className="Identite__civilite">
+        <div className="Identite__civilite__nomprenom">{`${data.nom} ${data.prenom}`}</div>
+        <div className="Identite__civilite__email">{`email : ${data.email}`}</div>
+        <div className="Identite__civilite__age">{`${data.age} ans`}</div>
+      </div>
+
     </div>
   );
 });
