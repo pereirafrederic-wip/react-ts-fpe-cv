@@ -1,0 +1,16 @@
+
+
+.Links{
+  display: flex;
+  flex-direction: row;
+
+  .Link{
+    padding: 10px;
+
+    .Link__name{
+      a{
+      color :$color-footer-link;
+      }
+    }
+  }
+}

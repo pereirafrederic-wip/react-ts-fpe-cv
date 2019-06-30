@@ -11,4 +11,9 @@ h1, p {
   }
 }
 
-@import './Identite/style.scss'
+$color-footer-link : red;
+
+
+@import './Identite/style.scss';
+@import './Activites/style.scss';
+@import './Links/style.scss';
