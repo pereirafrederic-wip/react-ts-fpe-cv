@@ -1,18 +1,98 @@
 [
   {
-    "id" : 1,
-    "name": "front-end"
+    "id": 1,
+    "name": "front-end",
+    "profiles": [
+      {
+        "id": 1,
+        "name": "développeur extJs ",
+        "version": "",
+        "pratiquePro": "2 ans",
+        "pratiquePerso": "1 an",
+        "level": 3
+      },
+      {
+        "id": 2,
+        "name": "développeur angularJs ",
+        "version": "1.7",
+        "pratiquePro": "1 ans",
+        "pratiquePerso": "1 ans 1/2",
+        "level": 3
+      },
+      {
+        "id": 3,
+        "name": "développeur angular",
+        "version": "2",
+        "pratiquePro": "",
+        "pratiquePerso": "6 mois",
+        "level": 2
+      },
+      {
+        "id": 4,
+        "name": "développeur reactJs",
+        "version": "16.6",
+        "pratiquePro": "1 ans",
+        "pratiquePerso": "1 an 1/2",
+        "level": 4
+      },
+      {
+        "id": 5,
+        "name": "développeur react typescript",
+        "version": "",
+        "pratiquePro": "6 mois",
+        "pratiquePerso": "6 mois",
+        "level": 4
+      }
+    ]
   },
   {
-    "id" : 2,
-    "name": "back-end"
+    "id": 2,
+    "name": "back-end",
+    "profiles": [
+      {
+        "id": 4,
+        "name": "développeur java",
+        "version": "",
+        "pratiquePro": "9 ans",
+        "pratiquePerso": "2 ans",
+        "level": 4
+      }
+    ]
   },
   {
-    "id" : 3,
-    "name": "veilles"
+    "id": 3,
+    "name": "veilles",
+    "profiles": [
+      {
+        "id": 2,
+        "name": "observateur docker",
+        "version": "",
+        "pratiquePro": "",
+        "pratiquePerso": "1 mois 1/2",
+        "level": 1
+      }
+    ]
   },
   {
-    "id" : 4,
-    "name": "intérêts"
+    "id": 4,
+    "name": "intérêts",
+    "profiles": [
+      {
+        "id": 1,
+        "name": "observateur kotlin",
+        "version": "1.3",
+        "pratiquePro": "",
+        "pratiquePerso": "",
+        "level": 0
+      },
+      {
+        "id": 2,
+        "name": "observateur mongoDB",
+        "version": "4.3",
+        "pratiquePro": "",
+        "pratiquePerso": "",
+        "level": 0
+      }
+    ]
   }
 ]

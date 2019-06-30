@@ -6,7 +6,7 @@ interface IProps {
 }
 
 interface IState {
-  activiteActive: number | null
+  activiteActiveId?: number | null
 }
 
 export default class Activites extends Component<IState, IProps> {
@@ -14,31 +14,39 @@ export default class Activites extends Component<IState, IProps> {
   constructor(props) {
     super(props)
     this.state = {
-      activiteActive: null
+      activiteActiveId: null
     }
   }
 
 
   changeActiviteActive(id) {
     console.log("changeActiviteActive", id)
-    this.setState({ activiteActive: id })
+    this.setState({ activiteActiveId: id })
   }
   isActive(id) {
-    const { activiteActive }: any = this.state
-    console.log(activiteActive, id)
-    if (activiteActive == id) return 'is-active';
+    const { activiteActiveId }: any = this.state
+    console.log(activiteActiveId, id)
+    if (activiteActiveId == id) return 'is-active';
     return 'not-active'
   }
 
 
   render() {
-    return (<div className="tabs is-centered">
-      <ul>
-        {data.map(activite => <li key={activite.id} className={`activite ${this.isActive(activite.id)} `}
-          onClick={this.changeActiviteActive.bind(this, activite.id)}
-        ><a>{activite.name}</a></li>)}
-      </ul>
-    </div>
+
+      const { activiteActive }: any = this.state
+    return (
+      <div className="Activites">
+        <div className="tabs is-centered">
+          <ul>
+            {data.map(activite => <li key={activite.id} className={`activite ${this.isActive(activite.id)} `}
+              onClick={this.changeActiviteActive.bind(this, activite.id)}
+            ><a>{activite.name}</a></li>)}
+          </ul>
+        </div>
+        <div className="profile">
+        {data.filter( activite => activite.id === )}
+        </div>
+      </div>
     )
   }
 }
