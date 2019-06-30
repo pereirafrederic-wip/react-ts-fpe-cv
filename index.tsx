@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Identite from './Identite/Identite';
-import Activites from './Activites/Activites'
+import Activites from './Activites/Activites';
+import Links from './Links/Links';
+
 
 
 
@@ -12,16 +14,8 @@ interface AppProps { }
 interface AppState { }
 
 
-class App extends Component<AppProps, AppState> {
+class CV extends Component<AppProps, AppState> {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      activiteActive: null
-    }
-  }
-
- 
 
   render() {
     return (
@@ -29,11 +23,10 @@ class App extends Component<AppProps, AppState> {
         <Identite />
         <Activites />
 
-
-        
+        <Links />
       </div>
     );
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<CV />, document.getElementById('root'));

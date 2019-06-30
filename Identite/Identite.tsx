@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import data from './identite.json';
+import data from './data.json';
 import { GoPerson } from "react-icons/go";
 
 interface IProps {

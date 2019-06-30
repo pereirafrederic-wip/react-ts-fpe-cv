@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import data from './activites.json';
+import data from './data.json';
 
 
 interface IProps {
@@ -24,7 +24,7 @@ export default class Activites extends Component<IState, IProps> {
     this.setState({ activiteActive: id })
   }
   isActive(id) {
-    const {activiteActive}  = this.state
+    const {activiteActive}:any  = this.state
     console.log(activiteActive , id)
     if (activiteActive == id) return 'is-active';
     return 'not-active'
@@ -34,7 +34,7 @@ export default class Activites extends Component<IState, IProps> {
     render() {
     return ( <div className="tabs is-centered">
     <ul>
-      {data.map(activite => <li className={`activite ${this.isActive(activite.id)} `}
+      {data.map(activite => <li key={activite.id} className={`activite ${this.isActive(activite.id)} `}
         onClick={this.changeActiviteActive.bind(this, activite.id)}
       ><a>{activite.name}</a></li>)}
     </ul>
