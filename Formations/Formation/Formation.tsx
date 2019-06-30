@@ -18,10 +18,14 @@ export default memo(({ formation }: IProps) => {
   console.log("MEMO Formation RENDERING");
 
   return (
-    <div className="Formation">
-      <div className="title">
+    <div className="Formation" key={formation.id}>
+      <div className="subtitle">
         {`du ${formation.debut} au ${formation.fin}`}
+      </div>
+      <div className="title">
         {`${formation.intitule} - ${formation.definition}`}
+      </div>
+      <div className="subtitle">
         {formation.lieu}
       </div>
     </div>
