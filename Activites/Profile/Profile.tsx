@@ -1,7 +1,8 @@
 import React, { memo } from 'react'
 
-import { DiReact, DiAngularSimple, DiJava, DiMongodb ,FaDocker} from "react-icons/di";
+import { DiReact, DiAngularSimple, DiJava, DiMongodb, DiDocker, DiExtjs } from "react-icons/di";
 
+import { FaVuejs } from "react-icons/fa";
 interface IProfile {
   id: number
   name: string
@@ -16,7 +17,7 @@ interface IProfile {
 interface IProps {
   profile: IProfile
 }
-const logoSize= 25;
+const logoSize = 35;
 
 export default memo(({ profile }: IProps) => {
   console.log("MEMO Profiles RENDERING");
@@ -27,27 +28,30 @@ export default memo(({ profile }: IProps) => {
       case "java":
         return <DiJava size={logoSize} />;
         break
-              case "react":
+      case "react":
         return <DiReact size={logoSize} />;
         break
-              case "angular":
-              case "angularJs":
+      case "angular":
+      case "angularJs":
         return <DiAngularSimple size={logoSize} />;
         break
-              case "mongo":
+      case "mongo":
         return <DiMongodb size={logoSize} />;
         break
-              case "docker":
-        return <FaDocker size={logoSize} />;
+      case "docker":
+        return <DiDocker size={logoSize} />;
         break
-              case "react":
-        return <DiReact size={logoSize} />;
+      case "extJs":
+        return <DiExtjs size={logoSize} />;
+        break
+
+      case "vue":
+        return <FaVuejs size={logoSize}  />;
         break
 
       default:
-         return <DiReact size={logoSize} />;
+        return <DiReact  size={logoSize}  color={"white"}/>;
     }
-    return <DiReact size={logoSize} />;
   }
 
   return (
@@ -57,21 +61,22 @@ export default memo(({ profile }: IProps) => {
       <div className="card">
         <div className="card-image">
           <figure className="image is-2by4">
-          {this.switchLogo()}
+
           </figure>
         </div>
         <div className="card-content">
           <div className="media">
             <div className="media-left">
               <figure className="image is-2by4">
+                {switchLogo()}
               </figure>
             </div>
             <div className="media-content">
               <p className="title is-4">{profile.name}</p>
-              <p className="subtitle is-6">{profile.version}</p>
-              <p className="subtitle is-6">{profile.pratiquePerso}</p>
-              <p className="subtitle is-6">{profile.pratiquePerso}</p>
-              <p className="subtitle is-6">{profile.level}</p>
+              <p className="subtitle is-6">{`version utilisé : ${profile.version}`}</p>
+              <p className="subtitle is-6">{`pratique en milieu professionnel : ${profile.pratiquePro}`}</p>
+              <p className="subtitle is-6">{`pratique en projet perso : ${profile.pratiquePerso}`}</p>
+              <p className="subtitle is-6">{`niveau estimé : ${profile.level}`}</p>
 
             </div>
           </div>

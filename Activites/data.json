@@ -6,7 +6,7 @@
       {
         "id": 1,
         "name": "développeur extJs ",
-        "code":"angularJs",
+        "code":"extJs",
         "version": "5.2",
         "pratiquePro": "2 ans",
         "pratiquePerso": "1 an",
@@ -28,7 +28,7 @@
         "name": "développeur angular",
         "version": "2",
         "code":"angular",
-        "pratiquePro": "",
+        "pratiquePro": "aucune",
         "pratiquePerso": "6 mois",
         "level": 2,
         "info" : "AngularJs allait forcément être remplacer par les nouvelles version Angular, alors je me suis mis à jour avec des cours Udemy. j'ai fait quelques tuto puis j'ai voulu le mettre en concurrence avec ReactJs. mon choix s'est porté sur React"
@@ -46,7 +46,7 @@
       {
         "id": 5,
         "name": "développeur react typescript",
-        "version": "",
+        "version": "3.4.3",
         "code":"react",
         "pratiquePro": "6 mois",
         "pratiquePerso": "6 mois",
@@ -80,18 +80,20 @@
         "name": "observateur docker",
                 "code":"docker",
         "version": "",
-        "pratiquePro": "",
+        "pratiquePro": "aucune",
         "pratiquePerso": "1 mois 1/2",
-        "level": 1
+        "level": 1,
+        "info": "dockeriser ses environnements, c'est vraiment pratique. "
       },
       {
         "id": 2,
         "name": "observateur VueJs",
         "code":"vue",
         "version": "2.0",
-        "pratiquePro": "",
+        "pratiquePro": "aucune",
         "pratiquePerso": "1 mois",
-        "level": 1
+        "level": 1,
+        "info": "Intéressant mais j'ai eu plus de mal avec VueJs qu'Angular et React, mon choix a été de pas se disperser plus."
       }
     ]
   },
@@ -104,18 +106,20 @@
         "name": "observateur kotlin",
         "code":"kotlin",
         "version": "1.3",
-        "pratiquePro": "",
-        "pratiquePerso": "",
-        "level": 0
+        "pratiquePro": "aucune",
+        "pratiquePerso": "aucune",
+        "level": 0,
+        "info": "kotlin a l'air plus intérssant que grails dans l'écosystème Java "
       },
       {
         "id": 2,
         "name": "observateur mongoDB",
         "code":"mongo",
         "version": "4.3",
-        "pratiquePro": "",
-        "pratiquePerso": "",
-        "level": 0
+        "pratiquePro": "aucune",
+        "pratiquePerso": "aucune",
+        "level": 0,
+        "info": "mongoDB pour la partie noSql, j'aimerais bien devoir la mettre en place"
       }
     ]
   }

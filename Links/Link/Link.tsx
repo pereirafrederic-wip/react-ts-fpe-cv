@@ -32,7 +32,6 @@ export default memo(({ link }: IProps) => {
       default:
          return <IoMdLink size={logoSize} />;
     }
-    return <IoMdLink size={logoSize} />;
   }
 
   return (
