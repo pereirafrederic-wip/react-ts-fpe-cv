@@ -2,5 +2,6 @@
   "nom" : "pereira",
   "prenom" : "frédéric",
   "age" : 35,
-  "email" : "pereira.frederic.android@gmail.com"
+  "email" : "pereira.frederic.android@gmail.com",
+  "titre": "developpeur full stack"
 }

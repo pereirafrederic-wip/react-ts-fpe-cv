@@ -1,15 +1,14 @@
 .Identite{
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    .Identite__logo{
-      border: 1px solid black;
-      border-radius: 10%;
+    .Identite__logo, .Identite__titre{
+      align-self: center;
     }
 
    .Identite__civilite{
-    flex-direction: column;
-    margin-left: 5px;
+      flex-direction: column;
+      margin-left: 5px;
       .Identite__civilite__nomprenom{
         font-weight: 800;
         text-transform: uppercase
