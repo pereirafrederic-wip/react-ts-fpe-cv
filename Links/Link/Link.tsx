@@ -17,7 +17,7 @@ enum ELinks {
   GITHUB = "github"
 }
 
-const logoSize =25;
+const logoSize = 25;
 
 export default memo(({ link }: IProps) => {
   console.log("MEMO Link RENDERING");
@@ -30,14 +30,16 @@ export default memo(({ link }: IProps) => {
         return <DiGithubAlt size={logoSize} />;
         break
       default:
-         return <IoMdLink size={logoSize} />;
+        return <IoMdLink size={logoSize} />;
     }
   }
 
   return (
-    <div className="Link" key={link.id}>
-    <div className="Link__logo">{switchLogo()} </div>
-      <div className="Link__name"><a href={link.url}>{link.name}</a> </div>
+    <div className="Link" key={link.id} >
+      <a href={link.url}>
+        <div className="Link__logo">{switchLogo()} </div>
+        <div className="Link__name">{link.name} </div>
+      </a>
     </div>
   );
 });
