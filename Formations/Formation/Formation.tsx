@@ -18,9 +18,9 @@ export default memo(({ formation }: IProps) => {
   console.log("MEMO Formation RENDERING");
 
   return (
-    <div className="Formation" key={formation.id}>
+    <div className="Formation tile box is-parent is-vertical" key={formation.id}>
       <div className="subtitle">
-        {`du ${formation.debut} au ${formation.fin}`}
+        {`de ${formation.debut} au ${formation.fin}`}
       </div>
       <div className="title">
         {`${formation.intitule} - ${formation.definition}`}
