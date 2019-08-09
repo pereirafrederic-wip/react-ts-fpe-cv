@@ -1,3 +1,2 @@
-# react-ts-fpe-cv
+# Initial page
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-fpe-cv)
