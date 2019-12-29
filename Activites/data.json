@@ -52,6 +52,16 @@
         "pratiquePerso": "6 mois",
         "level": 4,
         "info": "l'utilisation de typescript a comblé un gros manque d'organisation des modeles de mes composants, l'ajout d'interface et d'enum apporte clairement un gros plus à nos applications. je trouve aussi que redux est beaucoup plus clair avec le fait d'utiliser des interfaces, je trouve que c'est le truc qui lui manquait. aujourd'hui, je n'envisage plus react sans typescript"
+      },
+      {
+        "id": 2,
+        "name": "observateur VueJs",
+        "code": "vue",
+        "version": "2.0",
+        "pratiquePro": "aucune",
+        "pratiquePerso": "1 mois",
+        "level": 1,
+        "info": "Intéressant mais j'ai eu plus de mal avec VueJs qu'Angular et React, mon choix a été de pas se disperser plus."
       }
     ]
   },
@@ -62,64 +72,109 @@
       {
         "id": 4,
         "name": "développeur java",
-        "code": "java",
+        "code": "jenkins",
         "version": "8",
-        "pratiquePro": "9 ans",
+        "pratiquePro": "11 ans",
         "pratiquePerso": "2 ans",
         "level": 4,
         "info": "j'avais pratique java à l'école de façon assez courte, j'avais des expérienes plutôt programmation automate, ou de systeme életronique numérque. Après une découverte du langage java en entreprise, je me décidais à en faire mon métier. Après quelques années, j'avais envie de voir ce qui se faisait ailleurs, car le monde du front end était en pleine ébullition"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "veilles",
-    "profiles": [
-      {
-        "id": 2,
-        "name": "observateur VueJs",
-        "code": "vue",
-        "version": "2.0",
-        "pratiquePro": "aucune",
-        "pratiquePerso": "1 mois",
-        "level": 1,
-        "info": "Intéressant mais j'ai eu plus de mal avec VueJs qu'Angular et React, mon choix a été de pas se disperser plus."
       },
       {
         "id": 1,
-        "name": "observateur docker",
-        "code": "docker",
-        "version": "",
-        "pratiquePro": "aucune",
-        "pratiquePerso": "1 mois 1/2",
-        "level": 1,
-        "info": "dockeriser ses environnements, c'est vraiment pratique. "
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "intérêts",
-    "profiles": [
-      {
-        "id": 2,
-        "name": "observateur mongoDB",
-        "code": "mongo",
-        "version": "4.3",
-        "pratiquePro": "aucune",
-        "pratiquePerso": "aucune",
-        "level": 0,
-        "info": "mongoDB pour la partie noSql, j'aimerais bien devoir la mettre en place"
-      },
-      {
-        "id": 1,
-        "name": "observateur kotlin",
+        "name": "Intérêt pour kotlin",
         "code": "kotlin",
         "version": "1.3",
         "pratiquePro": "aucune",
         "pratiquePerso": "aucune",
         "level": 0,
         "info": "kotlin a l'air plus intéressant que grails dans l'écosystème Java "
+      },
+      {
+        "id": 1,
+        "name": "Nodes js",
+        "code": "nodejs",
+        "version": "X",
+        "pratiquePro": "aucune",
+        "pratiquePerso": "1 an",
+        "level": 0,
+        "info": "Utilisation de backend comme node js "
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "DevOps",
+    "profiles": [
+      {
+        "id": 1,
+        "name": "Mise en place d'une Plateforme d'Intégration Continue",
+        "code": "jenkins",
+        "version": "",
+        "pratiquePro": "6 mois",
+        "pratiquePerso": "9 mois",
+        "level": 1,
+        "info": "Sur un projet vieillissant, j'ai dépoussiérer le projet en remettant à flot un projet, la mise en place de d'une PIC en est une partie importante"
+      },
+      {
+        "id": 2,
+        "name": "Dockerisation d'une applicaton",
+        "code": "docker",
+        "version": "2",
+        "pratiquePro": "6 mois",
+        "pratiquePerso": "9 mois",
+        "level": 1,
+        "info": "Sur un projet vieillissant, j'ai dépoussiérer le projet en remettant à flot un projet, dockeriser l'application en est une partie non négligeable "
+      },
+      {
+        "id": 3,
+        "name": "Utilisation de linux et ses commande ",
+        "code": "linux",
+        "version": "",
+        "pratiquePro": "6 mois",
+        "pratiquePerso": "",
+        "level": 1,
+        "info": "création d'utilisateur avec droits, action copie , lancement DUMP , cron etc..."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "veilles",
+    "profiles": []
+  },
+  {
+    "id": 5,
+    "name": "BDD",
+    "profiles": [
+      {
+        "id": 1,
+        "name": "MySql",
+        "code": "mysql",
+        "version": "X",
+        "pratiquePro": "1 ans",
+        "pratiquePerso": "6 mois",
+        "level": 3,
+        "info": "l'utilisation de mysql workbench de base de donnée Mysql"
+      },
+      {
+        "id": 3,
+        "name": "PostgreSql",
+        "code": "postgresql",
+        "version": "9.4",
+        "pratiquePro": "3 ans",
+        "pratiquePerso": "1 an",
+        "level": 5,
+        "info": "beaucoup utilisé avec dump etc..."
+      },
+      {
+        "id": 3,
+        "name": "Intérêt pour mongoDB",
+        "code": "mongo",
+        "version": "4.3",
+        "pratiquePro": "aucune",
+        "pratiquePerso": "aucune",
+        "level": 0,
+        "info": "mongoDB pour la partie noSql, j'aimerais bien devoir la mettre en place"
       }
     ]
   }
