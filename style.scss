@@ -9,10 +9,12 @@ h1, p {
   .activite {
     text-transform: capitalize
   }
-}
+
 
 $color-footer-link : red;
 
 @import './Identite/style.scss';
 @import './Activites/style.scss';
 @import './Links/style.scss';
+
+}

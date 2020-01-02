@@ -1,5 +1,4 @@
 import React, { memo } from "react";
-import data from "./data.json";
 import { DiGithubAlt } from "react-icons/di";
 import { IoMdLink } from "react-icons/io";
 import { AiOutlineCodeSandbox } from "react-icons/ai";
@@ -14,10 +13,6 @@ interface IProps {
   link: ILink;
 }
 
-enum ELinks {
-  GITHUB = "github"
-}
-
 const logoSize = 25;
 
 export default memo(({ link }: IProps) => {
@@ -28,10 +23,8 @@ export default memo(({ link }: IProps) => {
     switch (link.name) {
       case "github":
         return <DiGithubAlt size={logoSize} />;
-        break;
       case "codesandbox":
         return <AiOutlineCodeSandbox size={logoSize} />;
-        break;
 
       default:
         return <IoMdLink size={logoSize} />;
